@@ -1,0 +1,21 @@
+.container {
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    margin: 1px;
+}
