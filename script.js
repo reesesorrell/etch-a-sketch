@@ -22,3 +22,12 @@ for (let i=0; i<length; i++) {
         makeChildBox(box);
     }
 }
+
+function color() {
+    this.classList.add('selected');
+}
+
+const boxes = document.querySelectorAll('.child');
+boxes.forEach(box => {
+    box.addEventListener('mouseenter', color);
+})

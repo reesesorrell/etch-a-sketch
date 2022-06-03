@@ -1,15 +1,16 @@
 .container {
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: tan;
 }
 
 .parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -17,5 +18,8 @@
     width: 30px;
     height: 30px;
     background-color: aqua;
-    margin: 1px;
+}
+
+.selected {
+    background-color: black;
 }
