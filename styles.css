@@ -15,11 +15,30 @@
 }
 
 .child {
-    width: 30px;
-    height: 30px;
     background-color: aqua;
 }
 
 .selected {
     background-color: black;
+}
+
+.button {
+    display: block;
+    font-size: large;
+    margin: 30px auto;
+    background-color:gainsboro
+}
+
+body {
+    background-color: bisque;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: xx-large;
+    margin-top: 20px;
 }
